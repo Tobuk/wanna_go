@@ -24,6 +24,9 @@
         },
         "cordova-plugin-console": {
             "PACKAGE_NAME": "com.hackkorea.wanna_go"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.hackkorea.wanna_go"
         }
     },
     "dependent_plugins": {}

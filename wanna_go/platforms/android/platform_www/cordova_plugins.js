@@ -46,6 +46,15 @@ module.exports = [
         "clobbers": [
             "device"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "pluginId": "cordova-plugin-inappbrowser",
+        "clobbers": [
+            "cordova.InAppBrowser.open",
+            "window.open"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -56,7 +65,8 @@ module.exports.metadata =
     "cordova-plugin-sms": "1.0.4",
     "cordova-plugin-dialogs": "1.2.1-dev",
     "cordova-plugin-device": "1.1.1-dev",
-    "cordova-plugin-console": "1.0.2"
+    "cordova-plugin-console": "1.0.2",
+    "cordova-plugin-inappbrowser": "1.1.2-dev"
 }
 // BOTTOM OF METADATA
 });
